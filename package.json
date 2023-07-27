@@ -1,0 +1,16 @@
+{
+  "name": "distributed_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./packages/api/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/feature_1",
+    "packages/feature_2",
+    "packages/api"
+  ]
+}
